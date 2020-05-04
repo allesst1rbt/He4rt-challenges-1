@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Freela - He4rtDevs</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div id='container'>
+      <div id="topo">
+          <h1 class="logo">Calculadora de freela</h1>       
+      </div>
+      <nav class="nav_tabs">
+        <ul>
+          <li>
+            <input type="radio" name="tabs" class="rd_tabs" id="tab1" checked>
+            <label for="tab1">Valor </label>
+            <div class="content">
+              <article>
+                <h3>Valor total do Projeto</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a sem arcu. In sed nisl non est sollicitudin cursus eget et tellus. Aenean convallis mauris dolor, euismod consequat velit semper non. Sed sodales, dui in malesuada hendrerit, eros risus sollicitudin justo, tristique tristique lacus nunc eget justo. Fusce molestie lacus at tempus ullamcorper. Donec eros arcu, posuere in urna maximus, malesuada mollis mi. Morbi ut nibh quis nisl tincidunt rhoncus </p>
+              </article>
+            </div>
+          </li>
+          <li>
+            <input type="radio" name="tabs" class="rd_tabs" id="tab2" >
+            <label for="tab2">horas </label>
+            <div class="content">
+              <article>
+               <h3>Horas trabalhadas</h3>
+               <p>Nulla fringilla mollis feugiat. Vestibulum consectetur efficitur felis, vitae elementum urna sagittis a. Nunc egestas, nisl sit amet sollicitudin commodo, orci risus porttitor diam, non porta lacus libero nec metus. Sed ornare turpis in quam pulvinar, sed sagittis erat venenatis. Donec nec libero efficitur, luctus sem ut, imperdiet ex. Mauris maximus tellus a justo mollis, eu placerat est consectetur. Phasellus finibus leo finibus sodales blandit.</p>
+              </article>
+            </div>
+          </li>
+          <li>
+            <input type="radio" name="tabs" class="rd_tabs" id="tab3">
+            <label for="tab3">trabalhados </label>
+            <div class="content">
+              <article>
+                <h3>Dias trabalhados</h3>
+                <p>Vivamus pulvinar urna eget velit congue vehicula. Fusce in auctor felis, nec volutpat magna. Suspendisse potenti. Mauris nibh nulla, congue a sem at, cursus convallis urna. Integer quis mi lacus. Sed nec volutpat nunc. Fusce varius fermentum consequat. Aliquam cursus aliquet porta. Vestibulum sodales, orci vitae ornare maximus</p>
+              </article>
+            </div>
+          </li>
+          <li>
+            <input type="radio" name="tabs" class="rd_tabs" id="tab4">
+            <label for="tab4">férias </label>
+            <div class="content">
+              <article>
+                <h3>Dias de ferias</h3>
+                <p>Quisque sagittis in risus sed feugiat. In lacus lacus, posuere vitae ex vel, faucibus aliquam sapien. Nam nibh dui, faucibus eu nibh sit amet, facilisis semper felis. Quisque vestibulum, libero nec gravida efficitur, nulla velit porttitor dolor, at posuere nisl ligula a libero. Nunc posuere felis nisi, sed porttitor sapien tincidunt vel. </p>
+              </article>
+            </div>
+          </li>
+          <li>
+            <input type="radio" name="tabs" class="rd_tabs" id="tab5">
+            <label for="tab5">Calcular</label>
+            <div class="content" id="calcula">
+             
+                <input type="text" id="valor_total"  placeholder="Valor total do projeto:" >
+                
+                <input type="text" id="h_trabalhadas" placeholder="Horas trabalhadas" >
+               
+                <input type="text" id="d_trabalhados" placeholder="Dias trabalhados" >
+              
+                <input type="text" id="d_ferias" placeholder="Dias de ferias:" >
+                <div id="botao">
+                  <button onclick="calcula()">calcular</button>
+                </div>
+            </div>
+            
+          </li>
+        </ul>
+      </nav>   
+    </div>
+    <div id="k">
+      <h3>by All3s St1rbt</h3>
+      <h3>Proposto por He4rtDevs</h3>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

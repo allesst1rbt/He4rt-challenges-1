@@ -1,0 +1,112 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #9164cd;
+}
+h3{
+	color: white;
+	margin: 10px;
+}
+#container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#topo {
+	height: 225px;	
+	padding-top: 25px;
+}
+.logo{
+    height:225px;
+    background: url(./logo.png) no-repeat center;
+	text-align: center;
+	color: blanchedalmond;
+    
+}
+#k h3{
+	text-align: center;
+	
+}
+h2{
+	text-align: center;
+	color: wheat;
+}
+p{
+	padding: 1px;
+	font-size: 1.1em;
+	color: white;
+	margin: 8px;
+}
+#botao{
+	padding: 10px;
+	text-align: center;
+	
+}
+input[type=text]{
+	height: 20px;
+	width: 300px;
+	background-color:blanchedalmond ;
+	border-radius: 10px 20px 30px;
+	padding: 5px;
+	margin: 10px;
+	margin-top: 20px;
+}
+button{
+	height: 30px;
+	width: 200px;
+	background-color: #b142d3;
+	font-size: 1.1em;
+	border-radius: 10px;
+	border-bottom-width: 7px;
+	color: white;
+}
+.nav_tabs{
+	width: 720px;
+	height: 400px;
+	margin: 10px auto;
+	background-color: white;
+	position: relative;
+
+}
+.nav_tabs ul{
+	list-style: none;
+}
+.nav_tabs ul li{
+	float: left;
+}
+.nav_tabs label{
+	width: 100px;
+	padding: 22px;
+	background-color: rgb(142, 11, 218);
+	display: block;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	text-align: center;
+	
+}
+.rd_tabs:checked ~ label{
+	background-color: rgb(170, 19, 163);
+}
+.rd_tabs{
+	display: none;
+
+}
+.content{
+	border-top: 10px solid rgb(172, 9, 163);
+	background-color: rgb(100, 25, 143);
+	display: none;
+	position: absolute;
+	height: 330px;
+	width: 100%;
+	left: 0;
+}
+.rd_tabs:checked ~ .content{
+	display: block;
+}
+#calcula{
+	text-align: center;
+}
